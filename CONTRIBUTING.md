@@ -1,44 +1,43 @@
-# Contributing to Pro Git (2nd Edition)
+# Соработувајќи кон Про Git (второ издание)
 
-## Licensing
+## Лиценцирање
 
-By opening a pull request to this repository, you agree to provide your work under the [project license](LICENSE.asc).
-Also, you agree to grant such license of your work as is required for the purposes of future print editions to @ben and @schacon.
-Should your changes appear in a printed edition, you'll be included in the [contributors list](book/contributors.asc).
+Со отворање на барање за повлекување на ова складиште, вие се согласувате да ја дадете вашата работа под [проектната лиценца](LICENSE.asc).
+Исто така, вие се согласувате да ја дадете таквата лиценца за вашата работа онака како што е потребна за целите на идните печатени изданија на @ben и @schacon.
+Доколку вашите промени се појават во печатено издание, ќе бидете вклучени во [листа на соработници](book/contributors.asc).
 
-## Signaling an Issue
+## Сигнализирање на проблем
 
-Before signaling an issue, please check that there isn't already a similar one in the bug tracking system.
+Пред да сигнализирате за некое прашање, проверете дали во системот за следење на бубачки веќе не постои слично.
 
-Also, if this issue has been spotted on the git-scm.com site, please cross-check that it is still present in the pdf version.
-The issue may have already been corrected, but the changes have not been deployed yet.
+Исто така, ако ова прашање е забележано на страницата git-scm.com, ве молиме проверете дали е сеуште присутна во pdf-верзијата.
+Прашањето можеби веќе е исправено, но промените сеуште не се распоредени.
 
-## Small Corrections
+## Мали корекции
 
-Errata and basic clarifications will be accepted if we agree that they improve the content.
-You can also open an issue so we can figure out how or if it needs to be addressed.
+Грешките и основните појаснувања ќе бидат прифатени ако се согласиме дека тие ја подобруваат содржината.
+Можете исто така да отворите прашање за да можеме да дознаеме како или ако треба да се решат.
 
-If you've never done this before, the [flow guide](https://guides.github.com/introduction/flow/) might be useful.
+Ако никогаш порано не сте го направиле тоа, [водичот за проток](https://guides.github.com/introduction/flow/) може да биде корисен.
 
-## Large Rewrites
+## Големи пренапишувања
 
-Open an issue for discussion before you start.
-These changes tend to be very subjective, often only clarifying things for some small percentage of people and it's rarely worth the time to accept them.
-Professional copy editors have already reviewed this content multiple times so while you may have somewhat better taste and grammar than we do it's unlikely that your prose is going to be *so* much better that it's worth changing vast swaths of text.
+Отворете прашање за дискусија пред да почнете.
+Овие промени имаат тенденција да бидат многу субјективни, честопати само разјаснување на нештата за некои мал процент на луѓе и ретко вреди да се прифати нивното време.
+Професионалните уредници за копирање веќе ја разгледаа оваа содржина неколку пати, па затоа можеби имате малку подобар вкус и граматика отколку што е малку веројатно дека вашата проза ќе биде * толку * многу * подобро што вреди да се менуваат огромни делови од текстот.
 
-## Figures
+## Фигури
 
-The images in this book were generated using [Sketch 3](http://bohemiancoding.com/sketch/), with the [included sketchbook file](diagram-source/progit.sketch).
+Сликите во оваа книга беа генерирани користејќи [Sketch 3](http://bohemiancoding.com/sketch/), со [вклучена датотека на скица](The images in this book were generated using [Sketch 3](http://bohemiancoding.com/sketch/), with the [included sketchbook file](diagram-source/progit.sketch).
 
-To add a figure:
+За да додадете фигура:
 
-1. Add a page to the sketchbook.
-Try to use the included symbols wherever possible.
-2. Add a "slice" to your page.
-Give it a name that matches the destination PNG filename, relative from the root of the source directory.
-3. Make sure your slice is set to export at "800w".
+1. Додадете страница во скица.
+Обидете се да ги користите вклучените симболи секогаш кога е можно.
+2. Додадете "парче" на вашата страница.
+Дајте име кое се совпаѓа со дестинационото име PNG, релативно од коренот на изворниот директориум.
+3. Осигурајте се дека вашиот парче е наместено да извезува на "800w".
 
+## Преведувања
 
-## Translations
-
-If you would like to contribute to translating Pro Git into your language, take a look at [TRANSLATING.md](TRANSLATING.md).
+Ако сакате да придонесете да го преведувате Pro Git на вашиот јазик, погледнете во [TRANSLATING.md](TRANSLATING.md).
