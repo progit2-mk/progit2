@@ -17,6 +17,8 @@ deploy:
   skip_cleanup: true
   on:
     tags: true
+  api-key: $GITHUB_API_TOKEN
+
 branches:
   only:
   - master
