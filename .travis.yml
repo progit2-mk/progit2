@@ -22,7 +22,7 @@ deploy:
 branches:
   only:
   - master
-  - /^2\.1(\.\d+)+$/
+  - /^(mk-2\.\d+\.\d+)$/
 
 notifications:
   email:
