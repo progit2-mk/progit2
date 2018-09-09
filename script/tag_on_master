@@ -16,4 +16,4 @@ echo $PATCH
 curl -H "Authorization: token $GITHUB_KEY" \
      -X POST \
      -d "{\"ref\":\"refs/tags/2.1.$PATCH\", \"sha\":\"$TRAVIS_COMMIT\"}" \
-     https://api.github.com/repos/progit/progit2/git/refs
+     https://api.github.com/repos/progit2-mk/progit2/git/refs
